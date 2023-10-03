@@ -1,0 +1,56 @@
+/* LoginPage.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+/* Style the outer container */
+.login-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #630202;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9; /* Light gray background */
+    
+  }
+  
+  /* Style the title */
+  .login-page h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #630202; /* Blue title color */
+  }
+  
+  /* Style form elements */
+  .login-page .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-page label {
+    margin: 5px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .login-page input[type="text"],
+  .login-page input[type="password"] {
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #630202; /* Blue border for input */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333; /* Text color */
+    margin-bottom: 15px;
+    margin-top: 8px;
+  }
+  
