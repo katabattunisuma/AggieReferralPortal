@@ -1,0 +1,1 @@
+# For storing configuration variables like database connection strings, secret keys, etc.
