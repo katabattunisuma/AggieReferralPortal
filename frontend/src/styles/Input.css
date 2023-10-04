@@ -1,0 +1,16 @@
+
+.form-group {
+    margin-bottom: 15px;
+  }
+
+input {
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #630202; /* Blue border for input */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333; /* Text color */
+    margin-bottom: 15px;
+    margin-top: 8px;
+    
+}
